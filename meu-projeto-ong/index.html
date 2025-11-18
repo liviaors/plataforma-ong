@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ONG Esperança Viva</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>ONG Esperança Viva</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Início</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+            <div class="menu-hamburguer">☰</div>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Missão</h2>
+            <p>Oferecer oportunidades de educação e voluntariado para jovens e comunidades carentes.</p>
+            <img src="assets/img/projeto1.jpg" alt="Imagem da ONG">
+        </section>
+
+        <section>
+            <h2>Valores</h2>
+            <p>Transparência, responsabilidade e solidariedade.</p>
+            <img src="assets/img/projeto2.jpg" alt="Atividades da ONG">
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 ONG Esperança Viva</p>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        const hamburguer = document.querySelector('.menu-hamburguer');
+        hamburguer.addEventListener('click', () => {
+            menu.classList.toggle('ativo');
+        });
+    </script>
+</body>
+</html>

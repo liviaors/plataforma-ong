@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projetos</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Projetos da ONG</h1>
+        <nav>
+            <ul class="menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="cadastro.html">Cadastro</a></li>
+            </ul>
+            <div class="menu-hamburguer">☰</div>
+        </nav>
+    </header>
+
+    <main class="grid-container">
+        <div class="card">
+            <img src="assets/img/projeto1.jpg" alt="Projeto Educação">
+            <div class="card-content">
+                <h2>Projeto Educação</h2>
+                <p>A ONG oferece cursos gratuitos para jovens.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/img/projeto2.jpg" alt="Projeto Saúde">
+            <div class="card-content">
+                <h2>Projeto Saúde</h2>
+                <p>Oferecemos consultas e palestras sobre saúde preventiva.</p>
+            </div>
+        </div>
+        <div class="card">
+            <img src="assets/img/projeto3.jpg" alt="Projeto Cultura">
+            <div class="card-content">
+                <h2>Projeto Cultura</h2>
+                <p>Atividades culturais e artísticas para crianças e jovens.</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2025 ONG Esperança Viva</p>
+    </footer>
+
+    <script>
+        const menu = document.querySelector('.menu');
+        const hamburguer = document.querySelector('.menu-hamburguer');
+        hamburguer.addEventListener('click', () => {
+            menu.classList.toggle('ativo');
+        });
+    </script>
+</body>
+</html>
